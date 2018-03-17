@@ -6,8 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.lai.threemenudemo.bean.MenuData;
-import com.lai.threemenudemo.dialog.ThreeMenuDialog;
+import com.android.common.ThreeMenuActivity;
+import com.android.common.bean.MenuData;
+import com.android.common.dialog.ThreeMenuDialog;
 
 /**
  * 主页面，提供两种选择进入菜单列表
@@ -25,7 +26,7 @@ public class HomeActivity extends Activity {
         tv1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivityForResult(new Intent(HomeActivity.this, MainActivity.class),REQUEST_CODE);
+                startActivityForResult(new Intent(HomeActivity.this, ThreeMenuActivity.class),REQUEST_CODE);
             }
         });
 
