@@ -1,4 +1,4 @@
-package com.lai.threemenudemo.dialog;
+package com.android.common.dialog;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,12 +8,13 @@ import android.widget.AdapterView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
-import com.lai.threemenudemo.R;
-import com.lai.threemenudemo.adapter.MenuDialogAdapter;
-import com.lai.threemenudemo.adapter.MyPagerAdapter;
-import com.lai.threemenudemo.bean.MenuData;
-import com.lai.threemenudemo.utils.MenuDataManager;
-import com.lai.threemenudemo.view.MyViewPager;
+
+import com.android.common.R;
+import com.android.common.adapter.MenuDialogAdapter;
+import com.android.common.adapter.MyPagerAdapter;
+import com.android.common.bean.MenuData;
+import com.android.common.utils.MenuDataManager;
+import com.android.common.view.MyViewPager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +23,7 @@ import java.util.List;
  * 三级菜单列表
  * Created by LaiYingtang on 2016/5/25.
  */
-public class ThreeMenuDialog extends SecondMenuDialog{
+public class ThreeMenuDialog extends SecondMenuDialog {
 
     private  int mWidth;    //宽度
     private MyViewPager mViewPager; //滑动viewPager

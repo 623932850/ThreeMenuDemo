@@ -1,10 +1,11 @@
-package com.lai.threemenudemo.adapter;
+package com.android.common.adapter;
 
 import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.lai.threemenudemo.view.MyViewPager;
+
+import com.android.common.view.MyViewPager;
 
 import java.util.List;
 

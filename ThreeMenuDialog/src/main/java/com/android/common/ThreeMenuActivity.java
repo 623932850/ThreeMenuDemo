@@ -1,4 +1,4 @@
-package com.lai.threemenudemo;
+package com.android.common;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,17 +9,17 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.lai.threemenudemo.adapter.MenuDialogAdapter;
-import com.lai.threemenudemo.adapter.MyPagerAdapter;
-import com.lai.threemenudemo.bean.MenuData;
-import com.lai.threemenudemo.utils.MenuDataManager;
-import com.lai.threemenudemo.view.MyViewPager;
+import com.android.common.adapter.MenuDialogAdapter;
+import com.android.common.adapter.MyPagerAdapter;
+import com.android.common.bean.MenuData;
+import com.android.common.utils.MenuDataManager;
+import com.android.common.view.MyViewPager;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends Activity {
+public class ThreeMenuActivity extends Activity {
 
     private Context mContext;
     public MenuDataManager menuDataManager = MenuDataManager.getInstance();

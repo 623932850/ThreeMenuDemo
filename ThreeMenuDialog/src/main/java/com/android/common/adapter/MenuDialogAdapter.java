@@ -1,4 +1,4 @@
-package com.lai.threemenudemo.adapter;
+package com.android.common.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,10 +8,11 @@ import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.lai.threemenudemo.R;
-import com.lai.threemenudemo.bean.MenuData;
+import com.android.common.R;
+import com.android.common.bean.MenuData;
 
 import java.util.List;
+
 
 /**
  * 要显示的adapter

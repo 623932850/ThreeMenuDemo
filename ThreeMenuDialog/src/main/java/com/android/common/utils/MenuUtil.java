@@ -1,9 +1,9 @@
-package com.lai.threemenudemo.utils;
+package com.android.common.utils;
 
 import android.content.Context;
 import android.content.res.AssetManager;
 
-import com.lai.threemenudemo.bean.MenuData;
+import com.android.common.bean.MenuData;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

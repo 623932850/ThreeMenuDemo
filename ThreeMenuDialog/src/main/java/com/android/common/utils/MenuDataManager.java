@@ -1,10 +1,11 @@
-package com.lai.threemenudemo.utils;
+package com.android.common.utils;
 
 import android.content.Context;
 
-import com.lai.threemenudemo.bean.MenuData;
+import com.android.common.bean.MenuData;
 
 import java.util.List;
+
 
 /**
  * Created by LaiYingtang on 2016/5/22.

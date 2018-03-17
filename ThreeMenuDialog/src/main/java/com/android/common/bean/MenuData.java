@@ -1,4 +1,4 @@
-package com.lai.threemenudemo.bean;
+package com.android.common.bean;
 
 import java.io.Serializable;
 

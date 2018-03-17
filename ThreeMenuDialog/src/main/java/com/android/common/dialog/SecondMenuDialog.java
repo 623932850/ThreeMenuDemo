@@ -1,4 +1,4 @@
-package com.lai.threemenudemo.dialog;
+package com.android.common.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -9,7 +9,8 @@ import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.lai.threemenudemo.R;
+import com.android.common.R;
+
 
 /**
  * 二级菜单

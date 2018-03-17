@@ -1,4 +1,4 @@
-package com.lai.threemenudemo.adapter;
+package com.android.common.adapter;
 
 import android.util.SparseArray;
 import android.view.View;
